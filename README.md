@@ -23,7 +23,13 @@ Jockes Dream ERP is an all-encompassing enterprise resource planning system aime
 - Data encryption and secure API connections.
 
 ## Diagrams
-![ERP Architecture](http://example.com/diagram1)
-![Module Interaction](http://example.com/diagram2)
+```mermaid
+graph LR
+  A[ERP System] --> B[Finance Module]
+  A --> C[Human Resources Module]
+  A --> D[Supply Chain Management Module]
+  A --> E[Sales & Marketing Module]
+  A --> F[Project Management Module]
+```
 
-(Note: Diagrams are conceptual; real diagrams need to be created)
+(Note: The diagram is a conceptual representation)
